@@ -29,3 +29,13 @@ Laptop:
 - [x] wifi, changed to a natively working wifi card
 - [x] Sound, using AppleALC, able to switch speaker and microphone automatically
 - [x] HiDPI, using QuickRes
+
+## Transfer to similiar Model Laptop
+- In BIOS, enable Launch CSM and turn off Secure Boot
+- In Clover, use [Clover Configurator.app](/Clover%20Configurator.app.7z)
+   + Modify Macbook model number, choose the one with the nearest CPU frequency as your laptop
+   + Generate serial number
+   + Change memory ram size
+   + Generate ssdt-alpf.aml using CPU-S, replace what's in ACPI/patched/, it's for dynamic CPU frequency 
+
+# ENJOY!

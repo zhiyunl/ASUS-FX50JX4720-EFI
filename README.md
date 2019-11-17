@@ -14,7 +14,7 @@ Laptop:
 - CPU: i7 4720HQ
 - RAM: 12GB DDR3L
 
-![osinfo](./osinfo.jpg)
+![osinfo](/osinfo.png) 
 
 ## Functionality
 

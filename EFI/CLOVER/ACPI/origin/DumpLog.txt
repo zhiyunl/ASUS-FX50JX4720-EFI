@@ -1,0 +1,183 @@
+78:005  50:899  Found BIOS RSDP at F0000
+78:005  0:000  Printing ACPI tables from RSDP F0000 ...
+78:005  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+78:005  0:000    (Xsdt: AE3EB098, Rsdt: AE3EB028)
+78:005  0:000    AE3EB098: 'XSDT', 'Notebook', Rev: 1, Len: 180
+78:005  0:000    AE3EB028: 'RSDT', 'Notebook', Rev: 1, Len: 108
+78:005  0:000    Tables in Xsdt: 18
+78:005  0:000    0. AE3FEF58: 'FACP', 'Notebook', Rev: 5, Len: 268
+78:005  0:000        (Dsdt: AE3EB260, Facs: AEA65F80, XDsdt: AE3EB260, XFacs: 0)
+78:005  0:000        AE3EB260: 'DSDT', 'Notebook', Rev: 2, Len: 81137
+78:007  0:001        AEA65F80: 'FACS', Ver: 2, Len: 64
+78:007  0:000    1. AE3FF068: 'APIC', 'Notebook', Rev: 3, Len: 146
+78:007  0:000    2. AE3FF100: 'FPDT', 'Notebook', Rev: 1, Len: 68
+78:007  0:000    3. AE3FF148: 'ECDT', 'Notebook', Rev: 1, Len: 193
+78:007  0:000    4. AE3FF210: 'SSDT', 'zpodd', Rev: 1, Len: 413
+78:007  0:000    5. AE3FF3B0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+78:007  0:000    6. AE3FF8F0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+78:007  0:000    7. AE4003C8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+78:007  0:000    8. AE400408: 'HPET', 'Notebook', Rev: 1, Len: 56
+78:007  0:000    9. AE400440: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+78:007  0:000    10. AE4006D8: 'SSDT', 'SaSsdt', Rev: 1, Len: 17729
+78:007  0:000    11. AE404C20: 'SSDT', 'SgPeg', Rev: 1, Len: 6586
+78:007  0:000    12. AE4065E0: 'SSDT', 'CppcTabl', Rev: 1, Len: 915
+78:007  0:000    13. AE406978: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
+78:007  0:000    14. AE4069E8: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+78:007  0:000    15. AE4074B0: 'DMAR', 'HSW', Rev: 1, Len: 168
+78:007  0:000    16. AE407558: 'SSDT', 'OptTabl', Rev: 1, Len: 6647
+78:007  0:000    17. AE1ADE18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+78:007  0:000    Tables in Rsdt: 18
+78:007  0:000    0. AE3EB150: 'FACP', 'Notebook', Rev: 2, Len: 268
+78:007  0:000        (Dsdt: AE3EB260, Facs: AEA65F40)
+78:007  0:000        AE3EB260: 'DSDT', 'Notebook', Rev: 2, Len: 81137
+78:008  0:001        AEA65F40: 'FACS', Ver: 0, Len: 64
+78:008  0:000    1. AE3FF068: 'APIC', 'Notebook', Rev: 3, Len: 146
+78:008  0:000    2. AE3FF100: 'FPDT', 'Notebook', Rev: 1, Len: 68
+78:008  0:000    3. AE3FF148: 'ECDT', 'Notebook', Rev: 1, Len: 193
+78:008  0:000    4. AE3FF210: 'SSDT', 'zpodd', Rev: 1, Len: 413
+78:008  0:000    5. AE3FF3B0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+78:008  0:000    6. AE3FF8F0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+78:008  0:000    7. AE4003C8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+78:008  0:000    8. AE400408: 'HPET', 'Notebook', Rev: 1, Len: 56
+78:008  0:000    9. AE400440: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+78:008  0:000    10. AE4006D8: 'SSDT', 'SaSsdt', Rev: 1, Len: 17729
+78:008  0:000    11. AE404C20: 'SSDT', 'SgPeg', Rev: 1, Len: 6586
+78:008  0:000    12. AE4065E0: 'SSDT', 'CppcTabl', Rev: 1, Len: 915
+78:008  0:000    13. AE406978: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
+78:008  0:000    14. AE4069E8: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+78:008  0:000    15. AE4074B0: 'DMAR', 'HSW', Rev: 1, Len: 168
+78:008  0:000    16. AE407558: 'SSDT', 'OptTabl', Rev: 1, Len: 6647
+78:008  0:000    17. AE1ADE18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+78:008  0:000  Found UEFI Acpi 2.0 RSDP at AE3EB000
+78:008  0:000  Saving ACPI tables from RSDP AE3EB000 to EFI\CLOVER\ACPI\origin ...
+78:008  0:000   AE3EB000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.amlnot written Success
+78:015  0:007  
+78:015  0:000    (Xsdt: AE3EB098, Rsdt: AE3EB028)
+78:015  0:000    AE3EB098: 'XSDT', 'Notebook', Rev: 1, Len: 180 -> XSDT.amlnot written Success
+78:018  0:002  
+78:018  0:000    AE3EB028: 'RSDT', 'Notebook', Rev: 1, Len: 108 -> RSDT.amlnot written Success
+78:020  0:002  
+78:020  0:000    Tables in Xsdt: 18
+78:020  0:000    0. AE3FEF58: 'FACP', 'Notebook', Rev: 5, Len: 268 -> FACP.amlnot written Success
+78:023  0:002  
+78:023  0:000        (Dsdt: AE3EB260, Facs: AEA65F80, XDsdt: AE3EB260, XFacs: 0)
+78:023  0:000        AE3EB260: 'DSDT', 'Notebook', Rev: 2, Len: 81137 -> DSDT.amlnot written Success
+78:028  0:004  
+78:029  0:001        AEA65F80: 'FACS', Ver: 2, Len: 64 -> FACS.amlnot written Success
+78:032  0:002  
+78:032  0:000    1. AE3FF068: 'APIC', 'Notebook', Rev: 3, Len: 146 -> APIC.amlnot written Success
+78:034  0:002  
+78:034  0:000    2. AE3FF100: 'FPDT', 'Notebook', Rev: 1, Len: 68 -> FPDT.amlnot written Success
+78:039  0:004  
+78:039  0:000    3. AE3FF148: 'ECDT', 'Notebook', Rev: 1, Len: 193 -> ECDT.amlnot written Success
+78:042  0:002  
+78:042  0:000    4. AE3FF210: 'SSDT', 'zpodd', Rev: 1, Len: 413 -> SSDT-0-zpodd.amlnot written Success
+78:044  0:002  
+78:044  0:000    5. AE3FF3B0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337 -> SSDT-1-Cpu0Ist.amlnot written Success
+78:047  0:002  
+78:047  0:000    6. AE3FF8F0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776 -> SSDT-2-CpuPm.amlnot written Success
+78:050  0:002   (Found hidden SSDT 4 pcs)
+78:050  0:000        * AC383A98: '$', '', Rev: 0, Len: 23117  24 05 00 10 4D 5A 00 00 00 00 00 00 00 00 00 00 
+78:050  0:000        * AE1A3618: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 D3 50 6D 52 65 66 00 Internal length = 1450not written Success
+78:052  0:002   -> SSDT-x2_0-ApIst.aml
+78:052  0:000        * AE1A3C18: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 979  53 53 44 54 D3 03 00 00 01 B3 50 6D 52 65 66 00 Internal length = 979not written Success
+78:055  0:003   -> SSDT-x2_1-Cpu0Cst.aml
+78:055  0:000        * AE1A2D98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EF 50 6D 52 65 66 00 Internal length = 281not written Success
+78:058  0:002   -> SSDT-x2_2-ApCst.aml
+78:058  0:000  
+78:058  0:000    7. AE4003C8: 'MCFG', 'Notebook', Rev: 1, Len: 60 -> MCFG.amlnot written Success
+78:061  0:002  
+78:061  0:000    8. AE400408: 'HPET', 'Notebook', Rev: 1, Len: 56 -> HPET.amlnot written Success
+78:063  0:002  
+78:063  0:000    9. AE400440: 'SSDT', 'SataTabl', Rev: 1, Len: 664 -> SSDT-3-SataTabl.amlnot written Success
+78:066  0:002  
+78:066  0:000    10. AE4006D8: 'SSDT', 'SaSsdt', Rev: 1, Len: 17729 -> SSDT-4-SaSsdt.amlnot written Success
+78:071  0:004  
+78:071  0:000    11. AE404C20: 'SSDT', 'SgPeg', Rev: 1, Len: 6586 -> SSDT-5-SgPeg.amlnot written Success
+78:075  0:004  
+78:075  0:000    12. AE4065E0: 'SSDT', 'CppcTabl', Rev: 1, Len: 915 -> SSDT-6-CppcTabl.amlnot written Success
+78:078  0:002  
+78:078  0:000    13. AE406978: 'PCCT', 'PcctTabl', Rev: 5, Len: 110 -> PCCT.amlnot written Success
+78:080  0:002  
+78:080  0:000    14. AE4069E8: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756 -> SSDT-7-Cpc_Tabl.amlnot written Success
+78:083  0:002  
+78:083  0:000    15. AE4074B0: 'DMAR', 'HSW', Rev: 1, Len: 168 -> DMAR.amlnot written Success
+78:086  0:002  
+78:086  0:000    16. AE407558: 'SSDT', 'OptTabl', Rev: 1, Len: 6647 -> SSDT-8-OptTabl.amlnot written Success
+78:089  0:003  
+78:089  0:000    17. AE1ADE18: 'MSDM', 'Notebook', Rev: 3, Len: 85 -> MSDM.amlnot written Success
+78:093  0:003  
+78:093  0:000    Tables in Rsdt: 18
+78:093  0:000    0. AE3EB150: 'FACP', 'Notebook', Rev: 2, Len: 268 -> RSDT-FACP.amlnot written Success
+78:095  0:002  
+78:095  0:000        (Dsdt: AE3EB260, Facs: AEA65F40)
+78:095  0:000        AE3EB260: 'DSDT', 'Notebook', Rev: 2, Len: 81137
+78:097  0:001        AEA65F40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.amlnot written Success
+78:099  0:002  
+78:099  0:000    1. AE3FF068: 'APIC', 'Notebook', Rev: 3, Len: 146
+78:099  0:000    2. AE3FF100: 'FPDT', 'Notebook', Rev: 1, Len: 68
+78:099  0:000    3. AE3FF148: 'ECDT', 'Notebook', Rev: 1, Len: 193
+78:099  0:000    4. AE3FF210: 'SSDT', 'zpodd', Rev: 1, Len: 413
+78:099  0:000    5. AE3FF3B0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+78:099  0:000    6. AE3FF8F0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+78:099  0:000    7. AE4003C8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+78:099  0:000    8. AE400408: 'HPET', 'Notebook', Rev: 1, Len: 56
+78:099  0:000    9. AE400440: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+78:099  0:000    10. AE4006D8: 'SSDT', 'SaSsdt', Rev: 1, Len: 17729
+78:099  0:000    11. AE404C20: 'SSDT', 'SgPeg', Rev: 1, Len: 6586
+78:099  0:000    12. AE4065E0: 'SSDT', 'CppcTabl', Rev: 1, Len: 915
+78:099  0:000    13. AE406978: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
+78:099  0:000    14. AE4069E8: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+78:099  0:000    15. AE4074B0: 'DMAR', 'HSW', Rev: 1, Len: 168
+78:099  0:000    16. AE407558: 'SSDT', 'OptTabl', Rev: 1, Len: 6647
+78:099  0:000    17. AE1ADE18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+78:099  0:000  Found UEFI Acpi 1.0 RSDP at AE3EB000
+78:099  0:000  Printing ACPI tables from RSDP AE3EB000 ...
+78:099  0:000   AE3EB000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+78:099  0:000    (Xsdt: AE3EB098, Rsdt: AE3EB028)
+78:099  0:000    AE3EB098: 'XSDT', 'Notebook', Rev: 1, Len: 180
+78:099  0:000    AE3EB028: 'RSDT', 'Notebook', Rev: 1, Len: 108
+78:099  0:000    Tables in Xsdt: 18
+78:099  0:000    0. AE3FEF58: 'FACP', 'Notebook', Rev: 5, Len: 268
+78:099  0:000        (Dsdt: AE3EB260, Facs: AEA65F80, XDsdt: AE3EB260, XFacs: 0)
+78:099  0:000        AE3EB260: 'DSDT', 'Notebook', Rev: 2, Len: 81137
+78:100  0:001        AEA65F80: 'FACS', Ver: 2, Len: 64
+78:100  0:000    1. AE3FF068: 'APIC', 'Notebook', Rev: 3, Len: 146
+78:100  0:000    2. AE3FF100: 'FPDT', 'Notebook', Rev: 1, Len: 68
+78:100  0:000    3. AE3FF148: 'ECDT', 'Notebook', Rev: 1, Len: 193
+78:100  0:000    4. AE3FF210: 'SSDT', 'zpodd', Rev: 1, Len: 413
+78:100  0:000    5. AE3FF3B0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+78:100  0:000    6. AE3FF8F0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+78:100  0:000    7. AE4003C8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+78:100  0:000    8. AE400408: 'HPET', 'Notebook', Rev: 1, Len: 56
+78:101  0:000    9. AE400440: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+78:101  0:000    10. AE4006D8: 'SSDT', 'SaSsdt', Rev: 1, Len: 17729
+78:101  0:000    11. AE404C20: 'SSDT', 'SgPeg', Rev: 1, Len: 6586
+78:101  0:000    12. AE4065E0: 'SSDT', 'CppcTabl', Rev: 1, Len: 915
+78:101  0:000    13. AE406978: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
+78:101  0:000    14. AE4069E8: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+78:101  0:000    15. AE4074B0: 'DMAR', 'HSW', Rev: 1, Len: 168
+78:101  0:000    16. AE407558: 'SSDT', 'OptTabl', Rev: 1, Len: 6647
+78:101  0:000    17. AE1ADE18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+78:101  0:000    Tables in Rsdt: 18
+78:101  0:000    0. AE3EB150: 'FACP', 'Notebook', Rev: 2, Len: 268
+78:101  0:000        (Dsdt: AE3EB260, Facs: AEA65F40)
+78:101  0:000        AE3EB260: 'DSDT', 'Notebook', Rev: 2, Len: 81137
+78:102  0:001        AEA65F40: 'FACS', Ver: 0, Len: 64
+78:102  0:000    1. AE3FF068: 'APIC', 'Notebook', Rev: 3, Len: 146
+78:102  0:000    2. AE3FF100: 'FPDT', 'Notebook', Rev: 1, Len: 68
+78:102  0:000    3. AE3FF148: 'ECDT', 'Notebook', Rev: 1, Len: 193
+78:102  0:000    4. AE3FF210: 'SSDT', 'zpodd', Rev: 1, Len: 413
+78:102  0:000    5. AE3FF3B0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+78:102  0:000    6. AE3FF8F0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+78:102  0:000    7. AE4003C8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+78:102  0:000    8. AE400408: 'HPET', 'Notebook', Rev: 1, Len: 56
+78:102  0:000    9. AE400440: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+78:102  0:000    10. AE4006D8: 'SSDT', 'SaSsdt', Rev: 1, Len: 17729
+78:102  0:000    11. AE404C20: 'SSDT', 'SgPeg', Rev: 1, Len: 6586
+78:102  0:000    12. AE4065E0: 'SSDT', 'CppcTabl', Rev: 1, Len: 915
+78:102  0:000    13. AE406978: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
+78:102  0:000    14. AE4069E8: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+78:102  0:000    15. AE4074B0: 'DMAR', 'HSW', Rev: 1, Len: 168
+78:102  0:000    16. AE407558: 'SSDT', 'OptTabl', Rev: 1, Len: 6647
+78:102  0:000    17. AE1ADE18: 'MSDM', 'Notebook', Rev: 3, Len: 85

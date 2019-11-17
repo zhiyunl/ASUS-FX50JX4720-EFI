@@ -1,4 +1,4 @@
-# ASUS-FX50JX-i7-EFI
+# ASUS-FX50JX4720-EFI
 
  Backup EFI for my MAC
 
@@ -11,7 +11,7 @@ Clover version: r5098
 Laptop: 
 
 - Model: ASUS FX50JX
-- CPU: i7 4720HQ
+- CPU: i7-4720HQ
 - RAM: 12GB DDR3L
 
 ![osinfo](/osinfo.png) 
